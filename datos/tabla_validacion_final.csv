@@ -1,0 +1,5 @@
+prueba,casos,error_maximo,umbral,resultado
+Jordan-Wigner nativo,18,0.0,1e-09,APROBADO
+PennyLane vs. Trotter matricial,48,2.4424906541753444e-15,1e-09,APROBADO
+Circuitos adicionales,8,8.881784197001252e-16,1e-09,APROBADO
+"Muestreo shots (variabilidad, NO criterio de fallo)",6,0.13424554937508887,,INFORMATIVO

@@ -1,0 +1,45 @@
+{
+  "model": "Four-site open chain; two particles; initial state |1100>; hopping=1; hbar=1",
+  "interaction_maxima": [
+    {
+      "U": 0,
+      "maximum": 0.15999014791875305,
+      "time": 1.4000000000000001
+    },
+    {
+      "U": 1,
+      "maximum": 0.1406110630759836,
+      "time": 1.35
+    },
+    {
+      "U": 2,
+      "maximum": 0.09972310029270705,
+      "time": 1.25
+    },
+    {
+      "U": 4,
+      "maximum": 0.0395796832123772,
+      "time": 5.9
+    },
+    {
+      "U": 6,
+      "maximum": 0.01681375480384066,
+      "time": 7.75
+    }
+  ],
+  "max_validation_error": 4.441672655467204e-15,
+  "entropy_max": 1.8660735789345306,
+  "trotter_at_8": [
+    {
+      "order": 1,
+      "infidelity": 0.28234571312267365,
+      "estimated_CNOT": 144
+    },
+    {
+      "order": 2,
+      "infidelity": 0.0040520289693600775,
+      "estimated_CNOT": 288
+    }
+  ],
+  "pennylane_status": "not executed; requires installed PennyLane"
+}

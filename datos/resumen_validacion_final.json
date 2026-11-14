@@ -1,0 +1,16 @@
+{
+  "validated": true,
+  "source": "CSV generados por scripts nativos de PennyLane, no cifras supuestas",
+  "missing_files": [],
+  "base_model": "Four-site open chain; two particles; initial state |1100>; hopping=1; hbar=1",
+  "jw_cases": 18,
+  "circuit_cases": 48,
+  "shot_cases": 6,
+  "jw_max_error_frobenius": 0.0,
+  "circuit_max_probability_error": 2.4424906541753444e-15,
+  "circuit_extra_max_probability_error": 8.881784197001252e-16,
+  "max_total_variation_vs_exact_digital": 0.8952542835410431,
+  "shot_max_probability_deviation": 0.13424554937508887,
+  "note": "El muestreo con shots muestra fluctuación estadística; no representa ruido de hardware físico.",
+  "note2": "La comparación con Trotter matricial verifica la implementación del circuito; la distancia frente a evolución exacta mide el error algorítmico, que no tiene por qué ser cero."
+}
