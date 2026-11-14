@@ -1,0 +1,59 @@
+{
+  "n_mods": 3,
+  "interaction_u_over_t": 2,
+  "pauli_terms": 10,
+  "pauli_reconstruction_error": 0.0,
+  "max_car_error_with_parity": 0.0,
+  "max_car_error_without_parity": 2.8284271247461903,
+  "trotter_infidelity_t2_steps_8_first": 0.11705338065802318,
+  "trotter_infidelity_t2_steps_8_second": 0.001539384411160083,
+  "pennylane_executed": false
+}
+{
+  "model": "Four-site open chain; two particles; initial state |1100>; hopping=1; hbar=1",
+  "interaction_maxima": [
+    {
+      "U": 0,
+      "maximum": 0.15999014791875305,
+      "time": 1.4000000000000001
+    },
+    {
+      "U": 1,
+      "maximum": 0.14061106307598364,
+      "time": 1.35
+    },
+    {
+      "U": 2,
+      "maximum": 0.09972310029270696,
+      "time": 1.25
+    },
+    {
+      "U": 4,
+      "maximum": 0.039579683212377384,
+      "time": 5.9
+    },
+    {
+      "U": 6,
+      "maximum": 0.016813754803840616,
+      "time": 7.75
+    }
+  ],
+  "max_validation_error": 4.446439748506845e-15,
+  "entropy_max": 1.866073578934534,
+  "trotter_at_8": [
+    {
+      "order": 1,
+      "infidelity": 0.28234571312267454,
+      "estimated_CNOT": 144
+    },
+    {
+      "order": 2,
+      "infidelity": 0.004052028969362076,
+      "estimated_CNOT": 288
+    }
+  ],
+  "pennylane_status": "not executed; requires installed PennyLane"
+}
+...........                                                              [100%]
+11 passed in 0.22s
+PENNYLANE NO INSTALADO: se omiten pruebas nativas (sin falsificar resultados).
